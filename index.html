@@ -15,8 +15,10 @@
             background-color: #0078d4;
             color: white;
             padding: 15px 20px;
-            text-align: left;
-            font-size: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 20px;
         }
         .search-container {
             text-align: center;
@@ -38,6 +40,12 @@
             border-radius: 5px;
             cursor: pointer;
         }
+        .banner {
+            background: linear-gradient(to right, #3a8ff3, #026ed2);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
         .support-section {
             display: flex;
             justify-content: center;
@@ -48,7 +56,7 @@
             background: white;
             padding: 20px;
             margin: 15px;
-            width: 300px;
+            width: 250px;
             text-align: center;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -65,26 +73,29 @@
 <body>
     <div class="header">Microsoft Support</div>
     
-    <div class="search-container">
-        <input type="text" placeholder="Search for help...">
+    <div class="banner">
+        <h1>Welcome to Microsoft Support</h1>
+        <p>Please enter your Microsoft technician generated 6-digit security code</p>
+        <input type="text" placeholder="How can we help you?">
         <button>Search</button>
     </div>
     
     <div class="support-section">
         <div class="support-box">
-            <h3>Windows Support</h3>
-            <p>Find solutions for Windows issues and updates.</p>
-            <button>Get Help</button>
+            <h3>Microsoft 365</h3>
+            <p>More Microsoft Products</p>
         </div>
         <div class="support-box">
-            <h3>Microsoft Office</h3>
-            <p>Help with Word, Excel, PowerPoint, and Outlook.</p>
-            <button>Get Help</button>
+            <h3>Outlook</h3>
+            <p>Email & Communication Support</p>
         </div>
         <div class="support-box">
-            <h3>Account & Billing</h3>
-            <p>Manage your account, subscriptions, and payments.</p>
-            <button>Get Help</button>
+            <h3>OneDrive</h3>
+            <p>Cloud Storage Support</p>
+        </div>
+        <div class="support-box">
+            <h3>Windows</h3>
+            <p>Windows OS Support</p>
         </div>
     </div>
     
