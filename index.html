@@ -29,31 +29,27 @@
             text-decoration: none;
             font-size: 16px;
         }
-        .search-container {
-            text-align: center;
-            margin: 30px 0;
-        }
-        input[type="text"] {
-            width: 60%;
-            padding: 12px;
-            font-size: 18px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        button {
-            padding: 12px 15px;
-            font-size: 18px;
-            background-color: #0078d4;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
         .banner {
             background: linear-gradient(to right, #3a8ff3, #026ed2);
             color: white;
             text-align: center;
             padding: 50px 20px;
+        }
+        .banner input {
+            width: 50%;
+            padding: 12px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .banner button {
+            padding: 12px 15px;
+            font-size: 18px;
+            background-color: #005bb5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
         .icon-container {
             display: flex;
@@ -64,6 +60,11 @@
         }
         .icon-box {
             text-align: center;
+        }
+        .icon-box img {
+            width: 60px;
+            display: block;
+            margin: 0 auto;
         }
         .support-section {
             display: flex;
@@ -91,7 +92,7 @@
 </head>
 <body>
     <div class="header">
-        <div>Microsoft Support</div>
+        <div><strong>Microsoft</strong> Support</div>
         <div class="nav-links">
             <a href="#">Microsoft 365</a>
             <a href="#">Office</a>
@@ -111,21 +112,23 @@
     
     <div class="icon-container">
         <div class="icon-box">
+            <img src="https://img.icons8.com/color/48/000000/microsoft.png" alt="Microsoft 365">
             <h3>Microsoft 365</h3>
         </div>
         <div class="icon-box">
+            <img src="https://img.icons8.com/color/48/000000/outlook.png" alt="Outlook">
             <h3>Outlook</h3>
         </div>
         <div class="icon-box">
+            <img src="https://img.icons8.com/color/48/000000/onedrive.png" alt="OneDrive">
             <h3>OneDrive</h3>
         </div>
         <div class="icon-box">
+            <img src="https://img.icons8.com/color/48/000000/windows-10.png" alt="Windows">
             <h3>Windows</h3>
         </div>
         <div class="icon-box">
-            <h3>Surface Devices</h3>
-        </div>
-        <div class="icon-box">
+            <img src="https://img.icons8.com/color/48/000000/xbox.png" alt="Gaming">
             <h3>Gaming</h3>
         </div>
     </div>
@@ -133,23 +136,23 @@
     <div class="support-section">
         <div class="support-box">
             <h3>Microsoft 365</h3>
-            <p>More Microsoft Products</p>
+            <p>Install Microsoft 365, manage your subscription</p>
         </div>
         <div class="support-box">
-            <h3>Outlook</h3>
-            <p>Email & Communication Support</p>
+            <h3>Microsoft Account</h3>
+            <p>Sign in, manage passwords, storage solutions</p>
         </div>
         <div class="support-box">
-            <h3>OneDrive</h3>
-            <p>Cloud Storage Support</p>
-        </div>
-        <div class="support-box">
-            <h3>Windows</h3>
-            <p>Windows OS Support</p>
+            <h3>Windows & Devices</h3>
+            <p>System updates, troubleshooting, compatibility</p>
         </div>
         <div class="support-box">
             <h3>Activation</h3>
-            <p>Windows & Office Activation Support</p>
+            <p>Windows & Office activation guide</p>
+        </div>
+        <div class="support-box">
+            <h3>Security & Privacy</h3>
+            <p>Manage privacy settings, protect your account</p>
         </div>
     </div>
     
